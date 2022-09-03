@@ -1,5 +1,5 @@
 from Expression import Expression
 
-exp=Expression("a+b*c+(d*e+f)*g")
+exp=Expression(input("Enter your Expression:"))
 
 print(exp.evaluate())
